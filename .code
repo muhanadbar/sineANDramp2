@@ -1,0 +1,69 @@
+ unsigned char wave []= {};
+
+      const unsigned char sinewave_data[] = {
+0,
+0.0125663499435183,
+0.0251325758622358,
+0.037698553732576,
+0.0502641595334104,
+0.0628292692472827,
+0.0753937588616327,
+0.0879575043700204,
+0.10052038177335,
+0.113082267081093,
+
+};
+  
+ const unsigned char tri[] = {2,
+2.021,
+2.042,
+2.063,
+2.084,
+2.105,
+2.126,
+2.147,
+2.168,
+2.189,
+
+ };
+   
+ 
+   
+ 
+    
+
+void setup() {
+  pinMode (11,OUTPUT);
+   Serial.begin(9600);
+}
+
+void loop() {
+ /*    const 
+ 
+    float s;
+ 
+   
+ 
+    //in radians
+// */
+//float zero = 128.0;float step = (2*M_PI)/(float)256;
+ 
+ 
+ 
+ 
+   // int v =0;
+    for(int i=0;i<10;i++)
+ 
+    { 
+ if ( sinewave_data[i] < tri [i])
+   
+    
+    Serial.println(1);
+    else
+    Serial.println(0);
+ 
+    delay(1);
+  
+    }
+ 
+    }
